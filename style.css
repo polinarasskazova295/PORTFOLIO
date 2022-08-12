@@ -127,3 +127,40 @@ font-family: 'Playfair Display SC', serif;*/
 .location{
     font-size: 35px;
 }
+#skills-logo{
+    max-width: 300px;;
+}
+#skills-icon{
+    text-align: center;
+    font-size: 35px;
+   font-family: 'Abril Fatface', cursive;
+}
+#level-icon{
+    text-align: center;
+    font-size: 35px;
+   font-family: 'Abril Fatface', cursive;
+}
+#level-logo{
+    max-width: 400px;
+}
+.skills-contant{
+    border: 2px solid var(--primary-color)
+}
+.certificate h1  {
+    font-size: 35px;
+}
+#school  {
+    font-size: 20px;
+}
+.certificate   {
+    text-align: center;
+   font-family: 'Abril Fatface', cursive;
+}
+#project-logo{
+    max-width: 300px;
+}
+.weather-project h2{
+    text-align: center;
+    font-size: 35px;
+   font-family: 'Abril Fatface', cursive;
+}
