@@ -6,10 +6,6 @@ font-family: 'Playfair Display SC', serif;*/
     --primary-color:#AB8E7F
 }
 
-.main {
-    background: url("");
-}
-
 #photo {
     text-align: center;
     max-width: 600px;
@@ -101,4 +97,33 @@ font-family: 'Playfair Display SC', serif;*/
 .contact{
     text-align: center;
     padding: 10px 20px 5px 5px;
+}
+#contact-logo{
+    max-width: 300px;;
+}
+.contact-text {
+    text-align: center;
+    font-family: 'Abril Fatface', cursive;
+    font-size: 35px;
+}
+#contact-icon {
+ color: var(--primary-color);
+    font-size: 50px;
+
+}
+.mail 
+ {
+    font-size: 35px;
+}
+.phone{
+    font-size: 35px;
+}
+.instagram{
+    font-size: 35px;
+}
+.linkedin{
+    font-size: 35px;
+}
+.location{
+    font-size: 35px;
 }
