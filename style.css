@@ -1,0 +1,104 @@
+/*font-family: 'Abril Fatface', cursive;
+font-family: 'Mukta', sans-serif;
+font-family: 'Playfair Display SC', serif;*/
+
+:root{
+    --primary-color:#AB8E7F
+}
+
+.main {
+    background: url("");
+}
+
+#photo {
+    text-align: center;
+    max-width: 600px;
+}
+.about-me{
+    background-color: var(--primary-color);
+     text-align: center;
+    color: white;
+    font-size: 35px;
+    font-family: 'Mukta', sans-serif;
+    padding: 0 10px 10px 10px;
+}
+.about-me h1 {
+   font-size: 50px;
+   font-family: 'Abril Fatface', cursive;
+}
+.tools {
+    max-width: 150px;
+    
+
+}
+
+.skills h1{
+    text-align: center;
+    font-size: 50px;
+   font-family: 'Abril Fatface', cursive;
+}
+#result-one{
+    max-width: 320px;
+}
+#result-two{
+    max-width: 320px;
+}
+#button-skills {
+    color:var(--primary-color);
+    background-color: white;
+    border: black;
+}
+#button-skills:hover{
+    background-color: var(--primary-color);
+    color: white;
+     border: 2px solid white;
+}
+#button-project {
+    background-color: var(--primary-color);
+    color: white;
+    border: black;
+    box-shadow: 10px black;
+}
+#button-project:hover {
+    background-color: white;
+    color: var(--primary-color);
+    border: 2px solid var(--primary-color);
+    box-shadow: 10px black;
+}
+.project h2{
+    text-align: center;
+    font-size: 40px;
+   font-family: 'Abril Fatface', cursive;
+   padding: 40px 0 5px 5px;
+}
+.project h1{
+    text-align: center;
+    font-size: 50px;
+   font-family: 'Abril Fatface', cursive;
+}
+.project p{
+    font-size: 25px;
+    font-family: 'Mukta', sans-serif;
+}
+#button-contact {
+    background-color: var(--primary-color);
+    color: white;
+    border: black;
+    box-shadow: 10px black;
+}
+#button-contact:hover {
+    background-color: white;
+    color: var(--primary-color);
+    border: 2px solid var(--primary-color);
+    box-shadow: 10px black;
+
+}
+#email{
+    color: var(--primary-color);
+    font-size: 35px;
+
+}
+.contact{
+    text-align: center;
+    padding: 10px 20px 5px 5px;
+}
