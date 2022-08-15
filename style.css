@@ -150,6 +150,8 @@ footer #contact-icon:hover{
 }
 #school  {
     font-size: 20px;
+    color: var(--primary-color);
+    cursor: pointer;
 }
 .certificate   {
     text-align: center;
