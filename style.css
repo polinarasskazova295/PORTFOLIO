@@ -50,16 +50,14 @@ font-family: 'Playfair Display SC', serif;*/
      border: 2px solid white;
 }
 #button-project {
+    color:var(--primary-color);
+    background-color: white;
+    border: 2px solid var(--primary-color);
+    }
+#button-project:hover {
     background-color: var(--primary-color);
     color: white;
-    border: black;
-    box-shadow: 10px black;
-}
-#button-project:hover {
-    background-color: white;
-    color: var(--primary-color);
-    border: 2px solid var(--primary-color);
-    box-shadow: 10px black;
+     border: 2px solid white;
 }
 .project h2{
     text-align: center;
@@ -79,15 +77,13 @@ font-family: 'Playfair Display SC', serif;*/
 #button-contact {
     background-color: var(--primary-color);
     color: white;
-    border: black;
-    box-shadow: 10px black;
+     border: 2px solid white;
 }
 #button-contact:hover {
+  color:var(--primary-color);
     background-color: white;
-    color: var(--primary-color);
-    border: 2px solid var(--primary-color);
-    box-shadow: 10px black;
-
+   border: 2px solid var(--primary-color);
+   margin:0
 }
 #email{
     color: var(--primary-color);
@@ -109,7 +105,10 @@ font-family: 'Playfair Display SC', serif;*/
 #contact-icon {
  color: var(--primary-color);
     font-size: 50px;
-
+    text-decoration: none;
+}
+footer #contact-icon:hover{
+    color: black;
 }
 .mail 
  {
@@ -118,7 +117,7 @@ font-family: 'Playfair Display SC', serif;*/
 .phone{
     font-size: 25px;
 }
-.instagram{
+.githubb{
     font-size: 25px;
 }
 .linkedin{
@@ -178,11 +177,27 @@ font-family: 'Playfair Display SC', serif;*/
 }
 .levels h1{
     text-align: center;
-    font-size: 30px;
+    font-size: 30px 60px;
    font-family: 'Abril Fatface', cursive;
 }
 .links-contact{
     text-decoration: none!important;
     color: var(--primary-color);
     cursor: pointer;
+}
+.contact-box{
+   border: 2px solid var(--primary-color);
+   border-radius: 10px;
+   padding: 15px;
+}
+footer h4{
+      text-align: center;
+    font-size: 35px;
+  font-family: 'Mukta', sans-serif;
+
+}
+
+footer p{
+    font-family: 'Mukta', sans-serif;
+
 }
