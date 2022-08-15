@@ -186,6 +186,3 @@ font-family: 'Playfair Display SC', serif;*/
     color: var(--primary-color);
     cursor: pointer;
 }
-.links-contact:hover{
-    text-decoration:none;
-}
