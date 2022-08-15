@@ -8,7 +8,7 @@ font-family: 'Playfair Display SC', serif;*/
 
 #photo {
     text-align: center;
-    max-width: 600px;
+    max-width: 630px;
 }
 .about-me{
     background-color: var(--primary-color);
@@ -19,25 +19,25 @@ font-family: 'Playfair Display SC', serif;*/
     padding: 0 10px 10px 10px;
 }
 .about-me h1 {
-   font-size: 35px;
+   font-size: 30px;
    font-family: 'Abril Fatface', cursive;
 }
 .tools {
-    max-width: 150px;
+    max-width: 90px;
     
 
 }
 
 .skills h1{
     text-align: center;
-    font-size: 35px;
+    font-size: 30px;
    font-family: 'Abril Fatface', cursive;
 }
 #result-one{
-    max-width: 320px;
+    max-width: 230px;
 }
 #result-two{
-    max-width: 320px;
+    max-width: 230px;
 }
 #button-skills {
     color:var(--primary-color);
@@ -104,7 +104,7 @@ font-family: 'Playfair Display SC', serif;*/
 .contact-text {
     text-align: center;
     font-family: 'Abril Fatface', cursive;
-    font-size: 35px;
+    font-size: 25px;
 }
 #contact-icon {
  color: var(--primary-color);
@@ -113,19 +113,19 @@ font-family: 'Playfair Display SC', serif;*/
 }
 .mail 
  {
-    font-size: 35px;
+    font-size: 25px;
 }
 .phone{
-    font-size: 35px;
+    font-size: 25px;
 }
 .instagram{
-    font-size: 35px;
+    font-size: 25px;
 }
 .linkedin{
-    font-size: 35px;
+    font-size: 25px;
 }
 .location{
-    font-size: 35px;
+    font-size: 25px;
 }
 #skills-logo{
     max-width: 300px;;
@@ -133,7 +133,7 @@ font-family: 'Playfair Display SC', serif;*/
 #skills-icon{
     text-align: center;
     font-size: 35px;
-   font-family: 'Abril Fatface', cursive;
+   
 }
 #level-icon{
     text-align: center;
@@ -141,7 +141,7 @@ font-family: 'Playfair Display SC', serif;*/
    font-family: 'Abril Fatface', cursive;
 }
 #level-logo{
-    max-width: 400px;
+    max-width: 230px;
 }
 .skills-contant{
     border: 2px solid var(--primary-color)
@@ -163,4 +163,29 @@ font-family: 'Playfair Display SC', serif;*/
     text-align: center;
     font-size: 35px;
    font-family: 'Abril Fatface', cursive;
+}
+.name-skills{
+    text-align: center;
+    font-size: 30px;
+   font-family: 'Abril Fatface', cursive;
+   padding: 20px 0 0 0;
+}
+.name-of-skills{
+    font-size: 20px;
+}
+#skills-padding{
+    padding: 0 0 20px 0;
+}
+.levels h1{
+    text-align: center;
+    font-size: 30px;
+   font-family: 'Abril Fatface', cursive;
+}
+.links-contact{
+    text-decoration: none!important;
+    color: var(--primary-color);
+    cursor: pointer;
+}
+.links-contact:hover{
+    text-decoration:none;
 }
